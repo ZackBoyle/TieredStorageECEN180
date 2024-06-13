@@ -1,7 +1,7 @@
 import csv
 
 def extract_last_two_digits(object_id):
-    # Extract the last four digits of the object ID
+    # Extract the last two digits of the object ID
     return object_id[-2:]
 
 def reformat_trace_data(input_file):
